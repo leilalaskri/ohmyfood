@@ -1,0 +1,65 @@
+@media screen and (max-width: 600px) {
+    .fonctionnement h3 {
+        margin-left: 30px;
+    }
+    .choix__fonctionnement {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+    }
+    .restaurant {
+        h2 {
+            margin: 20px;
+            font-size: 25px;
+        }
+    }
+    .fonctionnement {
+        h2 {
+            margin: 20px;
+            font-size: 25px;
+        }
+    }
+    .groupe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .groupecard__restaurant {
+        @include centrer;
+    }
+    .nouveau {
+        width: 100%;
+    }
+    .nouveau2 {
+        width: 100%;
+        @include centrer;
+    }
+    .card__box1 {
+        width: 90%;
+    }
+    .card__box {
+        width: 90%;
+    }
+    .box__groupecard {
+        width: 100%;
+    }
+    .chiffre__choix {
+        right: 340px;
+    }
+    .nouveau__box {
+        top: 40px;
+        left: 300px;
+    }
+    footer {
+        ul {
+            padding: 0px;
+        }
+        h1 {
+            font-size: 20px;
+        }
+    }
+}

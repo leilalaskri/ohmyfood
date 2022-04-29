@@ -1,0 +1,81 @@
+@media screen and (min-width: 769px) {
+    .explorer {
+        margin: 20px;
+    }
+    .restaurant {
+        margin: 20px;
+    }
+    .chiffre__choix {
+        left: -14px;
+    }
+    .fonctionnement {
+        h3 {
+            @include flex;
+        }
+    }
+    .restaurant {
+        h2 {
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+    .fonctionnement {
+        h2 {
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+    .menu1 {
+        display: flex;
+        justify-content: space-around;
+    }
+    .description {
+        p {
+            font-size: 16px;
+        }
+        h3 {
+            font-size: 16px;
+        }
+    }
+    .commander {
+        width: 30%;
+        margin-left: 30%;
+    }
+    .choix__fonctionnement {
+        width: 28%;
+    }
+    .nouveau__box {
+        left: 260px;
+        top: 40px;
+    }
+    .groupe {
+        @include around;
+    }
+    .card__box {
+        width: 40%;
+    }
+    .box__groupecard {
+        width: 40%;
+    }
+    .nouveau {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .nouveau2 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    footer ul {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+    footer h1 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+}

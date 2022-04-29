@@ -1,0 +1,67 @@
+.centrer {
+    @include centrer;
+}
+
+.titre__explorer {
+    @include alignement;
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    box-shadow: inset 0px 3px #d3d0d0;
+    .fas {
+        padding-right: 20px;
+    }
+}
+
+.paragraphe__explorer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    p {
+        margin: 0px 20px 10px;
+        font-size: 20px;
+    }
+    h2 {
+        margin: 0px 20px 10px;
+        font-size: 25px;
+    }
+}
+
+.chiffre__choix {
+    @include alignement;
+    border-style: solid;
+    border-color: $primaire;
+    background-color: $primaire;
+    border-radius: 50%;
+    color: white;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 20px;
+    left: -15px;
+}
+
+.choix__fonctionnement {
+    position: relative;
+    @include flex;
+    background-color: $gris;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px 2px #ece9e9;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.menu__choix {
+    @include alignement;
+    .fas {
+        padding-right: 20px;
+        color: $primaire;
+    }
+}
+
+.restaurant {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F2F2F2;
+}

@@ -1,0 +1,65 @@
+        header {
+            position: relative;
+            h1 {
+                font-size: 30px;
+                display: flex;
+                justify-content: center;
+            }
+            .fas {
+                position: absolute;
+                top: 15px;
+                left: 50px;
+            }
+        }
+        
+        .maing {
+            position: relative;
+            padding-top: 270px;
+        }
+        
+        .gris {
+            position: relative;
+            background-color: $gris;
+            left: auto;
+            width: 100%;
+            padding-bottom: 40px;
+            border-radius: 50px 50px 0px 0px;
+        }
+        
+        .titre__gris {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 15px;
+            margin-right: 35px;
+            h1 {
+                font-family: 'Shrikhand';
+            }
+        }
+        
+        .menu2 {
+            margin-bottom: 45px;
+        }
+        
+        .tit {
+            p {
+                margin-left: 15px;
+                font-size: 18px;
+                padding-bottom: 10px;
+                border-bottom: 3px solid $tertiaire;
+                width: 65px;
+            }
+        }
+        
+        .liste {
+            padding-left: 0px;
+            margin-left: 10px;
+        }
+        
+        .description {
+            h3 {
+                font-size: 20px;
+                margin-bottom: 0px;
+                margin-top: 5px;
+            }
+        }

@@ -1,0 +1,71 @@
+.plat {
+    opacity: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 5px 2px #ece9e9;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 95%;
+    p {
+        margin: 5px;
+        font-size: 18px;
+        margin-left: 0px;
+    }
+    h2 {
+        margin: 5px;
+    }
+}
+
+.prix {
+    display: flex;
+    font-weight: bold;
+    align-items: flex-end;
+    margin-right: 10px;
+}
+
+li:nth-child(1) {
+    animation: essai 0.8s 0s forwards ease-out;
+}
+
+li:nth-child(2) {
+    animation: essai 1s 0.5s forwards ease-out;
+}
+
+li:nth-child(3) {
+    animation: essai 1.5s 0.8s forwards ease-out;
+}
+
+@keyframes essai {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.plat:hover {
+    .prix {
+        margin-right: 100px;
+        transition: margin-right 0.5s;
+    }
+    .check {
+        height: 100%;
+        width: 70px;
+        background-color: $tertiaire;
+        color: $white;
+        transform: translateX(0);
+        transition: transform 0.5s;
+        i {
+            transform: rotate(360deg);
+            transition: transform 0.5s;
+        }
+    }
+}

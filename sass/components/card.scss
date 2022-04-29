@@ -1,0 +1,79 @@
+.card__box {
+    height: 260px;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    box-shadow: 6px 6px 6px rgb(224, 222, 222);
+    margin-top: 20px;
+    a {
+        text-decoration: none;
+    }
+}
+
+.card__box1 {
+    width: 100%;
+    height: 260px;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    box-shadow: 6px 6px 6px rgb(224, 222, 222);
+    margin-top: 20px;
+    a {
+        text-decoration: none;
+    }
+}
+
+.card__box1 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card__box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.imager img {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.info__card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    p {
+        color: black;
+        margin: 0px;
+        font-size: 20px;
+    }
+}
+
+.nouveau__box {
+    @include flex;
+    background-color: $tertiaire;
+    border-style: solid;
+    border-color: $tertiaire;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: absolute;
+    p {
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+}
+
+.box__groupecard {
+    position: relative;
+    @include flex;
+}

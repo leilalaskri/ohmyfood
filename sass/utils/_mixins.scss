@@ -1,0 +1,32 @@
+@mixin centrer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin alignement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin around {
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin btn {
+    background: linear-gradient(to left top, $primaire, $secondaire);
+    ;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    font-family: Roboto Slab, serif;
+    box-shadow: 6px 6px 6px #d6d3d3;
+}

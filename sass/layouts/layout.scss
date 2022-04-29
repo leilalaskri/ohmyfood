@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+}
+
+.contact {
+    display: flex;
+    margin-bottom: 10px;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    li {
+        list-style-type: none;
+    }
+    ul {
+        padding-left: 0px;
+    }
+    .fas.fa-hands-helping {
+        padding-right: 10px;
+    }
+    .fas.fa-utensils {
+        padding-right: 17px;
+    }
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+}

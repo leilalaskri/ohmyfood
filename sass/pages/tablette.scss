@@ -1,0 +1,51 @@
+@media all and (min-width: 601px) and (max-width: 768px) {
+    .choix__fonctionnement {
+        width: 80%;
+    }
+    .card__box {
+        width: 40%;
+    }
+    .box__groupecard {
+        width: 40%;
+    }
+    .restaurant {
+        h2 {
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+    .fonctionnement {
+        h2 {
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+    .nouveau {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .groupe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .nouveau2 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    footer ul {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+    footer h1 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+}
