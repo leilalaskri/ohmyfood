@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact li {
+  list-style-type: none;
+}
+
+.contact ul {
+  padding-left: 0px;
+}
+
+.contact .fas.fa-hands-helping {
+  padding-right: 10px;
+}
+
+.contact .fas.fa-utensils {
+  padding-right: 17px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=layout.css.map */

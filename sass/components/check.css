@@ -1,0 +1,29 @@
+.check {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+  height: 0%;
+  width: 0px;
+  font-size: 20px;
+  border-radius: 0 15px 15px 0;
+  -webkit-transform: translateX(60px);
+          transform: translateX(60px);
+}
+
+.check i {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+/*# sourceMappingURL=check.css.map */

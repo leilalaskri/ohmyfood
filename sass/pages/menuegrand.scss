@@ -1,10 +1,4 @@
 @media screen and (min-width: 769px) {
-    .explorer {
-        margin: 20px;
-    }
-    .restaurant {
-        margin: 20px;
-    }
     .chiffre__choix {
         left: -14px;
     }
@@ -37,36 +31,35 @@
             font-size: 16px;
         }
     }
+    .blok {
+        width: 35%;
+    }
     .commander {
         width: 30%;
         margin-left: 30%;
     }
-    .choix__fonctionnement {
+    .choice__menu {
         width: 28%;
     }
-    .nouveau__box {
-        left: 260px;
-        top: 40px;
-    }
-    .groupe {
+    .menu {
         @include around;
     }
-    .card__box {
-        width: 40%;
+    .leilaplats {
+        width: 100%;
     }
-    .box__groupecard {
-        width: 40%;
+    .plat {
+        width: 300px;
     }
-    .nouveau {
+    .liste {
+        padding-left: 0px;
+        margin-left: 10px;
+    }
+    .groupecard__restaurant {
+        width: 100%;
         display: flex;
-        justify-content: space-around;
-        margin-top: 30px;
-    }
-    .nouveau2 {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
     footer ul {
         display: flex;

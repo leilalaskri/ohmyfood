@@ -12,7 +12,7 @@
             }
         }
         
-        .maing {
+        .principal {
             position: relative;
             padding-top: 270px;
         }
@@ -51,15 +51,17 @@
             }
         }
         
-        .liste {
-            padding-left: 0px;
-            margin-left: 10px;
-        }
-        
-        .description {
+        .description:hover {
             h3 {
-                font-size: 20px;
-                margin-bottom: 0px;
-                margin-top: 5px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                max-width: 100px;
+            }
+            p {
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                max-width: 300px;
             }
         }

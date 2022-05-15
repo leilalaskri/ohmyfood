@@ -1,12 +1,15 @@
 @media all and (min-width: 601px) and (max-width: 768px) {
-    .choix__fonctionnement {
+    .choice__menu {
         width: 80%;
     }
-    .card__box {
-        width: 40%;
+    .blok {
+        width: 90%;
     }
-    .box__groupecard {
-        width: 40%;
+    .leilaplats {
+        width: 90%;
+    }
+    .plat {
+        width: 90%;
     }
     .restaurant {
         h2 {
@@ -14,34 +17,24 @@
             font-size: 25px;
         }
     }
+    .groupecard__restaurant {
+        @include centrer;
+    }
+    .card__box {
+        width: 90%;
+    }
     .fonctionnement {
         h2 {
             text-align: center;
             font-size: 25px;
         }
     }
-    .nouveau {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 30px;
-    }
-    .groupe {
+    .menu {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         margin: 10px;
-    }
-    .nouveau2 {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    footer ul {
-        display: flex;
-        justify-content: space-between;
-        width: 80%;
     }
     footer h1 {
         font-size: 30px;

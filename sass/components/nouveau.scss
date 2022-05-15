@@ -1,0 +1,16 @@
+.nouv {
+    position: absolute;
+    width: 96px;
+    top: 30px;
+    right: 50px;
+    p {
+        background-color: $tertiaire;
+        border-radius: 2px;
+        font-size: 20px;
+        padding: 6px;
+    }
+}
+
+.blok {
+    position: relative;
+}

@@ -2,11 +2,17 @@
     .fonctionnement h3 {
         margin-left: 30px;
     }
-    .choix__fonctionnement {
+    .choice__menu {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 90%;
+    }
+    .leilaplats {
+        width: 100%;
+    }
+    .plat {
         width: 90%;
     }
     .restaurant {
@@ -15,13 +21,17 @@
             font-size: 25px;
         }
     }
+    .liste {
+        padding-left: 0px;
+        margin-left: 10px;
+    }
     .fonctionnement {
         h2 {
             margin: 20px;
             font-size: 25px;
         }
     }
-    .groupe {
+    .menu {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -31,28 +41,11 @@
     .groupecard__restaurant {
         @include centrer;
     }
-    .nouveau {
-        width: 100%;
-    }
-    .nouveau2 {
-        width: 100%;
-        @include centrer;
-    }
-    .card__box1 {
+    .blok {
         width: 90%;
-    }
-    .card__box {
-        width: 90%;
-    }
-    .box__groupecard {
-        width: 100%;
     }
     .chiffre__choix {
         right: 340px;
-    }
-    .nouveau__box {
-        top: 40px;
-        left: 300px;
     }
     footer {
         ul {
