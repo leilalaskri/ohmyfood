@@ -65,7 +65,7 @@ footer {
   padding-bottom: 40px;
 }
 
-.centrer {
+.center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,7 +78,7 @@ footer {
           flex-direction: column;
 }
 
-.titre__explorer {
+.title__explorer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,7 +94,7 @@ footer {
           box-shadow: inset 0px 3px #d3d0d0;
 }
 
-.titre__explorer .fas {
+.title__explorer .fas {
   padding-right: 20px;
 }
 
@@ -107,8 +107,7 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin: 30px;
 }
 
 .paragraphe__explorer p {
@@ -143,7 +142,7 @@ footer {
   left: -15px;
 }
 
-.choix__fonctionnement {
+.choice__menu {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -202,7 +201,7 @@ header .fas {
   left: 50px;
 }
 
-.maing {
+.principal {
   position: relative;
   padding-top: 270px;
 }
@@ -246,11 +245,6 @@ header .fas {
   width: 65px;
 }
 
-.liste {
-  padding-left: 0px;
-  margin-left: 10px;
-}
-
 .description:hover h3 {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -265,19 +259,7 @@ header .fas {
   max-width: 300px;
 }
 
-.description h3 {
-  font-size: 20px;
-  margin-bottom: 0px;
-  margin-top: 5px;
-}
-
 @media screen and (min-width: 769px) {
-  .explorer {
-    margin: 20px;
-  }
-  .restaurant {
-    margin: 20px;
-  }
   .chiffre__choix {
     left: -14px;
   }
@@ -310,26 +292,32 @@ header .fas {
   .description h3 {
     font-size: 16px;
   }
+  .blok {
+    width: 35%;
+  }
   .commander {
     width: 30%;
     margin-left: 30%;
   }
-  .choix__fonctionnement {
+  .choice__menu {
     width: 28%;
   }
-  .nouveau__box {
-    left: 260px;
-    top: 40px;
-  }
-  .groupe {
+  .menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .box__groupecard {
-    width: 40%;
+  .leilaplats {
+    width: 100%;
+  }
+  .plat {
+    width: 300px;
+  }
+  .liste {
+    padding-left: 0px;
+    margin-left: 10px;
   }
   .groupecard__restaurant {
     width: 100%;
@@ -370,7 +358,7 @@ header .fas {
   .fonctionnement h3 {
     margin-left: 30px;
   }
-  .choix__fonctionnement {
+  .choice__menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -386,15 +374,25 @@ header .fas {
             flex-direction: column;
     width: 90%;
   }
+  .leilaplats {
+    width: 100%;
+  }
+  .plat {
+    width: 90%;
+  }
   .restaurant h2 {
     margin: 20px;
     font-size: 25px;
+  }
+  .liste {
+    padding-left: 0px;
+    margin-left: 10px;
   }
   .fonctionnement h2 {
     margin: 20px;
     font-size: 25px;
   }
-  .groupe {
+  .menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -422,18 +420,11 @@ header .fas {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .card__box {
+  .blok {
     width: 90%;
-  }
-  .box__groupecard {
-    width: 100%;
   }
   .chiffre__choix {
     right: 340px;
-  }
-  .nouveau__box {
-    top: 40px;
-    left: 300px;
   }
   footer ul {
     padding: 0px;
@@ -444,32 +435,42 @@ header .fas {
 }
 
 @media all and (min-width: 601px) and (max-width: 768px) {
-  .choix__fonctionnement {
+  .choice__menu {
     width: 80%;
   }
-  .card__box {
-    width: 40%;
+  .blok {
+    width: 90%;
   }
-  .box__groupecard {
-    width: 40%;
+  .leilaplats {
+    width: 90%;
+  }
+  .plat {
+    width: 90%;
   }
   .restaurant h2 {
     text-align: center;
     font-size: 25px;
   }
+  .groupecard__restaurant {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card__box {
+    width: 90%;
+  }
   .fonctionnement h2 {
     text-align: center;
     font-size: 25px;
   }
-  .nouveau {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    margin-top: 30px;
-  }
-  .groupe {
+  .menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -484,24 +485,6 @@ header .fas {
         -ms-flex-direction: column;
             flex-direction: column;
     margin: 10px;
-  }
-  .nouveau2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  footer ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 80%;
   }
   footer h1 {
     font-size: 30px;
@@ -544,8 +527,11 @@ header .fas {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 50%;
-  margin-left: 90px;
+  width: 200px;
+}
+
+.btn__explorer :hover .p {
+  background-color: aqua;
 }
 
 .check {
@@ -620,26 +606,44 @@ header .fas {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
+  height: 60px;
+  overflow: hidden;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   -webkit-box-shadow: 5px 5px 5px 2px #ece9e9;
           box-shadow: 5px 5px 5px 2px #ece9e9;
   padding: 10px;
   margin-bottom: 20px;
-  width: 95%;
 }
 
-.plat p {
-  margin: 5px;
+.description h3 {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transition: width 0.5s ease-out;
+  transition: width 0.5s ease-out;
+}
+
+.description p {
   font-size: 18px;
-  margin-left: 0px;
-}
-
-.plat h2 {
-  margin: 5px;
+  margin: 0px;
+  width: 200px;
+  height: 30px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transition: width 0.5s ease-out;
+  transition: width 0.5s ease-out;
 }
 
 .prix {
+  margin-top: 61px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -648,6 +652,11 @@ header .fas {
       -ms-flex-align: end;
           align-items: flex-end;
   margin-right: 10px;
+}
+
+.prix p {
+  margin: 5px;
+  margin-left: 0px;
 }
 
 li:nth-child(1) {
@@ -697,6 +706,14 @@ li:nth-child(3) {
   }
 }
 
+.plat:hover .p {
+  width: 170px;
+}
+
+.plat:hover .h3 {
+  width: 170px;
+}
+
 .plat:hover .prix {
   margin-right: 100px;
   -webkit-transition: margin-right 0.5s;
@@ -727,7 +744,6 @@ li:nth-child(3) {
 
 .card__box {
   height: 100px;
-  width: 400px;
   margin: 20px;
   background-color: white;
   border-radius: 20px;
@@ -749,7 +765,7 @@ li:nth-child(3) {
   border-radius: 20px 20px 0px 0px;
 }
 
-.imager img {
+.image img {
   position: absolute;
   top: 0px;
   width: 100%;
@@ -805,5 +821,23 @@ li:nth-child(3) {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.nouv {
+  position: absolute;
+  width: 96px;
+  top: 30px;
+  right: 50px;
+}
+
+.nouv p {
+  background-color: #99E2D0;
+  border-radius: 2px;
+  font-size: 20px;
+  padding: 6px;
+}
+
+.blok {
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */

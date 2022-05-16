@@ -2,10 +2,28 @@
     @include btn;
     width: auto;
     padding: 15px;
+    cursor: pointer;
 }
 
 .commander {
+    display: flex;
+    justify-content: center;
+}
+
+.commander p {
     @include btn;
     @include flex;
     width: 200px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.btn__explorer :hover {
+    background: linear-gradient(to left top, #f229b9, #e367df);
+    box-shadow: 8px 8px 8px #959494;
+}
+
+.commander :hover {
+    background: linear-gradient(to left top, #f229b9, #e367df);
+    box-shadow: 8px 8px 8px #959494;
 }
