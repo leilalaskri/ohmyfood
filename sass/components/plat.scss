@@ -22,7 +22,7 @@
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-        transition: width 0.5s ease-out;
+        transition: width 0.5s;
     }
     p {
         font-size: 18px;
@@ -32,8 +32,16 @@
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-        transition: width 0.5s ease-out;
+        transition: width 0.5s;
     }
+}
+
+.plat:hover .p {
+    width: 170px;
+}
+
+.plat:hover .h3 {
+    width: 170px;
 }
 
 .prix {
@@ -72,14 +80,6 @@ li:nth-child(3) {
         transform: translateY(0);
         opacity: 1;
     }
-}
-
-.plat:hover .p {
-    width: 170px;
-}
-
-.plat:hover .h3 {
-    width: 170px;
 }
 
 .plat:hover {
